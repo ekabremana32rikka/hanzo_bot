@@ -77,7 +77,7 @@ const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'TEL;type=CELL;type=VOICE;waid=6282387804410:+62 823-8780-4410\n' // JANGAN KEK BABI SU
             + 'END:VCARD'
 prefix = '/'
-blocked = ['6289655478810@s.whatsapp.net']
+blocked = ['6285277566353@s.whatsapp.net']
 
 function kyun(seconds){
   function pad(s){
@@ -190,9 +190,9 @@ async function starts() {
 
 			const botNumber = client.user.jid
 			const ownerNumber = ["6282387804410@s.whatsapp.net"] // replace this with your number
-			const adminbotnumber = ["6285364937006@s.whatsapp.net"]
+			const adminbotnumber = ["625277566353@s.whatsapp.net"]
 			const frendsowner = ["6282387804410@s.whatsapp.net"]
-			const premium = ["6282387804410@s.whatsapp.net","6285807107404@s.whatsapp.net","6289655478810@s.whatsapp.net","62895801181650@s.whatsapp.net","6282198571732@s.whatsapp.net"]
+			const premium = ["628527756653@s.whatsapp.net","6285807107404@s.whatsapp.net","6289655478810@s.whatsapp.net","62895801181650@s.whatsapp.net","6282198571732@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
