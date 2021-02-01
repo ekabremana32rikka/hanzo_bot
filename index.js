@@ -83,7 +83,7 @@ vz = '*Terima Kasih Sudah Daftar Di HanzoBrema*'
 const vcard = 'BEGIN:VCARD\n' //
             + 'VERSION:3.0\n' //
             + 'FN: REAL ACCOUNT BANG BREMA\n' //
-            + 'ORG:Creator VEERBOTZ;\n' //
+            + 'ORG:Creator Hanzobot;\n' //
             + 'TEL;type=CELL;type=VOICE;waid=6285277566353:+628pasangnomoryou \n' //
             + 'END:VCARD'
 prefix = '/'
