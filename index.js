@@ -1,6 +1,6 @@
 //tolong jangan di hapus Case Para Creator Bot WhatsApp!
 //Kasi credit MhankBar2 Maslent Xptn Arifi
-//dan juga Subscribe Arifi Razzaq OFFICIAL jgn cuma ganti nama bot
+//dan juga Subscribe cuk jgn cuma ganti nama bot
 //hargai Pencipta bot ya sob!
 const {
     WAConnection,
@@ -79,12 +79,12 @@ const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const user = JSON.parse(fs.readFileSync('./src/user.json'))
 ban = []
 cr = '*VEERBOTZ*'
-vz = '*Terima Kasih Sudah Daftar Di VEERBOTZ*'
+vz = '*Terima Kasih Sudah Daftar Di HanzoBrema*'
 const vcard = 'BEGIN:VCARD\n' //
             + 'VERSION:3.0\n' //
-            + 'FN: REAL ACCOUNT BANG ARIFI\n' //
+            + 'FN: REAL ACCOUNT BANG BREMA\n' //
             + 'ORG:Creator VEERBOTZ;\n' //
-            + 'TEL;type=CELL;type=VOICE;waid=628pasangnomoryou:+628pasangnomoryou \n' //
+            + 'TEL;type=CELL;type=VOICE;waid=6285277566353:+628pasangnomoryou \n' //
             + 'END:VCARD'
 prefix = '/'
 blocked = []
@@ -284,11 +284,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["628pasangnomoryou@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
+			const ownerNumber = ["6285277566353@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
 			const mod = [ownerNumber,"628pasangnomoryou@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
-			const adminbotnumber = ["628pasangnomoryou@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
+			const adminbotnumber = ["6285277566353@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
 			const frendsowner = ["628pasangnomoryou@s.whatsapp.net","6283191156893@s.whatsapp.net"]
-			const premium = ["628pasangnomoryou@s.whatsapp.net","6282349516238@s.whatsapp.net","6282210159450@s.whatsapp.net","6289512703226@s.whatsapp.net","6283191156893@s.whatsapp.net","6287844366550@s.whatsapp.net"]
+			const premium = ["6283846382999@s.whatsapp.net","6285277566353@s.whatsapp.net","083179682058@s.whatsapp.net","6289512703226@s.whatsapp.net","6283191156893@s.whatsapp.net","6287844366550@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -1927,7 +1927,8 @@ if (isBanned) return reply(mess.only.benned)
 					teks = body.slice(6)
 					if (teks.length > 9) return reply('Teksnya kepanjangan, maksimal 9 karakter')
 					reply(mess.wait)
-					Buffer = await getBuffer(`https://tobz-api.herokuapp.com/api/photooxy?theme=wood_block&text=${teks}&apikey=kontol`)
+					Buffer = await getBuffer(`https://tobz-api.herokuapp.com/api/photooxy?theme=wood_block&text=${teks}&apikey=kontol`)
+
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: ''+teks})
 					break
 				case 'thunder':
