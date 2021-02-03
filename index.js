@@ -82,7 +82,7 @@ cr = '*VEERBOTZ*'
 vz = '*Terima Kasih Sudah Daftar Di HanzoBrema*'
 const vcard = 'BEGIN:VCARD\n' //
             + 'VERSION:3.0\n' //
-            + 'FN: REAL ACCOUNT BANG BREMA\n' //
+            + 'FN: REAL ACCOUNT BANG ROMI\n' //
             + 'ORG:Creator Hanzobot;\n' //
             + 'TEL;type=CELL;type=VOICE;waid=6285277566353:+628pasangnomoryou \n' //
             + 'END:VCARD'
@@ -284,11 +284,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6285277566353@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
+			const ownerNumber = ["6289638023602@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
 			const mod = [ownerNumber,"628pasangnomoryou@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
-			const adminbotnumber = ["6285277566353@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
+			const adminbotnumber = ["6289638023602@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
 			const frendsowner = ["628pasangnomoryou@s.whatsapp.net","6283191156893@s.whatsapp.net"]
-			const premium = ["6283846382999@s.whatsapp.net","6285277566353@s.whatsapp.net","083179682058@s.whatsapp.net","6289512703226@s.whatsapp.net","6283191156893@s.whatsapp.net","6287844366550@s.whatsapp.net"]
+			const premium = ["6289638023602@s.whatsapp.net","6285277566353@s.whatsapp.net","083179682058@s.whatsapp.net","6289512703226@s.whatsapp.net","6283191156893@s.whatsapp.net","6287844366550@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
